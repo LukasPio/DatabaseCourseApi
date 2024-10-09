@@ -1,0 +1,6 @@
+services:
+  db:
+    image: mysql:9.0.1
+    environment:
+      MYSQL_ROOT_PASSWORD: password123
+      MYSQL_DATABASE: loginApi
