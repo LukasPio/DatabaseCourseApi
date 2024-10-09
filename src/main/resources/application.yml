@@ -2,4 +2,4 @@ spring:
   datasource:
     username: root
     password: password123
-    url: jdbc://localhost:3306/loginApi
+    url: jdbc:mysql://localhost:3306/loginApi
